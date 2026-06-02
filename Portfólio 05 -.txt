@@ -1,0 +1,68 @@
+Portfólio 05 -
+Lógica de Programação - 2026
+
+Prática 17
+Conversão de Moedas
+
+algoritmo "ConversorMoeda"
+var
+   valorReal, cotacaoDolar, valorDolar: real
+inicio
+   escreva("Valor em Reais (R$): ")
+   leia(valorReal)
+   escreva("Cotação do Dolar hoje: ")
+   leia(cotacaoDolar)
+   
+   valorDolar <- valorReal / cotacaoDolar
+   
+   escreval("--- Resultado da Conversão ---")
+   escreval("Valor convertido: US$ ", valorDolar:2:2)
+fimalgoritmo
+Prática 18
+Cálculo de Consumo de Energia
+
+
+algoritmo "ConsumoEnergia"
+var
+   watts, horasUso, dias, precoKwh: real
+   consumoTotal, valorPagar: real
+inicio
+   escreva("Potência do aparelho (Watts): ")
+   leia(watts)
+   escreva("Horas de uso por dia: ")
+   leia(horasUso)
+   escreva("Dias de uso no mês: ")
+   leia(dias)
+   escreva("Preço do kWh: ")
+   leia(precoKwh)
+   
+   consumoTotal <- (watts * horasUso * dias) / 1000
+   valorPagar <- consumoTotal * precoKwh
+   
+   escreval("--- Relatório de Consumo ---")
+   escreval("Consumo mensal: ", consumoTotal:2:2, " kWh")
+   escreval("Valor estimado: R$ ", valorPagar:2:2)
+fimalgoritmo
+Prática 19
+Divisão de Conta de Restaurante
+
+algoritmo "DivisaoConta"
+var
+   valorTotal, totalComTaxa, valorPorPessoa: real
+   numPessoas: inteiro
+inicio
+   escreva("Valor total da conta: R$ ")
+   leia(valorTotal)
+   escreva("Número de pessoas para dividir: ")
+   leia(numPessoas)
+   
+   totalComTaxa <- valorTotal * 1.10
+   valorPorPessoa <- totalComTaxa / numPessoas
+   
+   escreval("--- Fechamento da Conta ---")
+   escreval("Total com 10%: R$ ", totalComTaxa:2:2)
+   escreval("Valor por pessoa: R$ ", valorPorPessoa:2:2)
+fimalgoritmo
+Prática 20
+Cálculo de IMC Simples
+

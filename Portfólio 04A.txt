@@ -1,0 +1,5 @@
+Ação 1: Sim, essa mudança deve ser registrada. Como o sistema de login está pronto e testado, ele marca uma evolução real e estável no projeto. Ter esse ponto no histórico facilita muito se alguém precisar entender quando essa funcionalidade foi integrada.
+
+Ação 2: Não deve ir para o histórico. Registrar um código incompleto que trava o site vai contra o princípio de manter versões funcionais e organizadas. É melhor terminar a tarefa amanhã para garantir que o snapshot seja útil e não uma fonte de erros para a equipee.
+
+Ação 3: o commit. Mesmo sendo apenas um ajuste de texto, é uma melhoria finalizada que contribui para o polimento do sistema. Documentar pequenas correções ajuda na auditoria e mantém o controle total sobre tudo que foi alterado na interface do usuáriio.

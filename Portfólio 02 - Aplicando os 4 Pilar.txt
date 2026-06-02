@@ -1,0 +1,13 @@
+Portfólio 02 - Aplicando os 4 Pilares do Versionamento
+
+Cenário A:Recuperação
+Este é o elemento que resolve a urgência Basicamente, ele permite "dar um passo atrás" e restaurar a versão funcional de ontem. É a rede de segurança que impede que um erro de atualização se torne um desastre permanente.
+
+Cenário B: Rastreabilidde
+a Rastreabilidade é o que permite apontar o dedo — no bom sentido Com ela, cada alteração ganha uma assinatura. A gerente consegue ver quem apagou a função e acessar o log para entender se foi um erro ou uma decisão estratégica.
+
+Cenário C:  Histórico
+O Histórico salva o dia aqui. Ele é o registro cronológico de tudo o que aconteceu no código. Para um novato, é como ter uma máquina do tempo que mostra exatamente como as ideias foram empilhadas até o projeto chegar onde está hoje.
+
+Cenário D: Evolução Controlada
+Aqui o foco é organização. A Evolução Controlada permite que o sistema cresça sem virar bagunça, usando ramificações para testar novidades sem quebrar o que o cliente já está usando. É o que garante um progresso seguro

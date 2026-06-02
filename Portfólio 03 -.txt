@@ -1,0 +1,120 @@
+Portfólio 03 -
+Lógica de Programação - 2026
+
+Pratica 7
+
+algoritmo "ConversaoTempo"
+var
+   horas, minutos, segundos: real
+inicio
+   escreva("Digite a quantidade de horas: ")
+   leia(horas)
+   
+   minutos <- horas * 60
+   segundos <- minutos * 60
+   
+   escreval("--- Resultado da Conversão ---")
+   escreval("Minutos: ", minutos)
+   escreva("Segundos: ", segundos)
+fimalgoritmo
+Prática 8
+
+algoritmo "CalculoComissao"
+var
+   vendedor: caractere
+   vendas, percentual, comissao, total: real
+inicio
+   escreva("Nome do vendedor: ")
+   leia(vendedor)
+   escreva("Total de vendas: R$ ")
+   leia(vendas)
+   escreva("Percentual de comissão: ")
+   leia(percentual)
+   
+   comissao <- vendas * (percentual / 100)
+   total <- comissao
+   
+   escreval("--- Relatório de Vendas ---")
+   escreval("Vendedor: ", vendedor)
+   escreval("Comissão a receber: R$ ", comissao:2:2)
+   escreva("Total líquido: R$ ", total:2:2)
+fimalgoritmo
+Prática 9
+
+algoritmo "PlanejamentoViagem"
+var
+   distancia, consumo, precoLitro: real
+   litrosNecessarios, custoTotal: real
+inicio
+   escreva("Distância (km): ")
+   leia(distancia)
+   escreva("Consumo médio (km/l): ")
+   leia(consumo)
+   escreva("Preço do combustível: R$ ")
+   leia(precoLitro)
+   
+   litrosNecessarios <- distancia / consumo
+   custoTotal <- litrosNecessarios * precoLitro
+   
+   escreval("--- Resumo da Viagem ---")
+   escreval("Combustível necessário: ", litrosNecessarios:2:2, " litros")
+   escreva("Custo total estimado: R$ ", custoTotal:2:2)
+fimalgoritmo
+Prática 10
+
+algoritmo "OrcamentoMensal"
+var
+   salario, aluguel, energia, agua, alimentacao, transporte: real
+   totalDespesas, percentualUso, saldo: real
+inicio
+   escreva("Salário: R$ ")
+   leia(salario)
+   escreva("Valor Aluguel: ")
+   leia(aluguel)
+   escreva("Valor Energia: ")
+   leia(energia)
+   escreva("Valor Água: ")
+   leia(agua)
+   escreva("Valor Alimentação: ")
+   leia(alimentacao)
+   escreva("Valor Transporte: ")
+   leia(transporte)
+   
+   totalDespesas <- aluguel + energia + agua + alimentacao + transporte
+   percentualUso <- (totalDespesas / salario) * 100
+   saldo <- salario - totalDespesas
+   
+   escreval("--- Financeiro Mensal ---")
+   escreval("Total gasto: R$ ", totalDespesas:2:2)
+   escreval("Comprometimento da renda: ", percentualUso:2:1, "%")
+   escreva("Saldo livre: R$ ", saldo:2:2)
+fimalgoritmo
+Prática 11
+
+algoritmo "CompraParcelada"
+var
+   produto: caractere
+   valorOriginal, descPerc, taxaPerc, parcelas: real
+   valorComDesc, valorComTaxa, valorParcela: real
+inicio
+   escreva("Produto: ")
+   leia(produto)
+   escreva("Valor original: ")
+   leia(valorOriginal)
+   escreva("Desconto (%): ")
+   leia(descPerc)
+   escreva("Taxa de juros (%): ")
+   leia(taxaPerc)
+   escreva("Número de parcelas: ")
+   leia(parcelas)
+   
+   valorComDesc <- valorOriginal - (valorOriginal * (descPerc / 100))
+   valorComTaxa <- valorComDesc + (valorComDesc * (taxaPerc / 100))
+   valorParcela <- valorComTaxa / parcelas
+   
+   escreval("--- Detalhes do Pagamento ---")
+   escreval("Item: ", produto)
+   escreval("Valor com desconto: R$ ", valorComDesc:2:2)
+   escreval("Total com taxas: R$ ", valorComTaxa:2:2)
+   escreva("Valor por parcela: ", parcelas, "x de R$ ", valorParcela:2:2)
+fimalgoritmo

@@ -1,0 +1,25 @@
+PT1_Trabalho_Conceitos_Teoricos
+
+1
+
+O git é um sistema de controle de versão distribuído, gratuito e de código aberto, utilizado para rastrear alterações no código, seu diferencial vem de como é possível rastrear as alterações feitas por pessoas ou a partir do tempo, podendo simplesmente voltar em uma versão mais nova do projeto se algo der errado.
+
+2. 
+
+Quando você usa o git add, o arquivo vai para a Staging Area. 
+
+Ele sai do seu "Diretório de Trabalho" e entra em um estado onde o Git entende que aquelas alterações estão prontas para serem salvas. 
+
+3.
+
+Um Commit é a confirmação das alterações. É quando o Git salva tudo oficial do estado atual do seu projeto e a guarda no banco de dados local. 
+
+Mensagens de Commit: São importantes pois permitem uma comunicação clara entre o time sobre o que deu errado e o que está sendo feito. 
+
+4
+
+O git status é usado para verificar o estado atual do repositório, incluindo informações sobre arquivos modificados, adicionados ou excluídos
+
+
+
+Você já tem o Git instalado na sua máquina ou quer ajuda para configurar seu primeiro repositório?

@@ -1,0 +1,94 @@
+Portfólio 02 -
+Lógica de Programação - 2026
+
+Prática 3
+
+algoritmo "DescontoSimples"
+var
+   produto: caractere
+   preco, percentual, valorFinal: real
+inicio
+   escreva("Nome do produto: ")
+   leia(produto)
+   escreva("Preço original: ")
+   leia(preco)
+   escreva("Porcentagem de desconto: ")
+   leia(percentual)
+   
+   valorFinal <- preco - (preco * (percentual / 100))
+   
+   escreval("--- Resumo da Compra ---")
+   escreval("Produto: ", produto)
+   escreval("Valor com desconto: R$", valorFinal:2:2)
+fimalgoritmo
+Prática 4
+
+algoritmo "BoletimEscolar"
+var
+   aluno: caractere
+   n1, n2, n3, media: real
+inicio
+   escreva("Nome do aluno: ")
+   leia(aluno)
+   escreva("Nota 1: ")
+   leia(n1)
+   escreva("Nota 2: ")
+   leia(n2)
+   escreva("Nota 3: ")
+   leia(n3)
+   
+   media <- (n1 + n2 + n3) / 3
+   
+   escreval("--- Boletim ---")
+   escreval("Estudante: ", aluno)
+   escreval("Média Final: ", media:2:1)
+fimalgoritmo
+Prática 5
+
+algoritmo "CalculoCompraDetalhado"
+var
+   precoUnitario, qtd, descPercentual: real
+   totalBruto, valorDesc, totalFinal, precoMedio: real
+inicio
+   escreva("Valor da unidade: ")
+   leia(precoUnitario)
+   escreva("Quantidade: ")
+   leia(qtd)
+   escreva("Desconto (%): ")
+   leia(descPercentual)
+   
+   totalBruto <- precoUnitario * qtd
+   valorDesc <- totalBruto * (descPercentual / 100)
+   totalFinal <- totalBruto - valorDesc
+   precoMedio <- totalFinal / qtd
+   
+   escreval("Bruto: R$", totalBruto:2:2)
+   escreval("Desconto aplicado: R$", valorDesc:2:2)
+   escreval("Total a pagar: R$", totalFinal:2:2)
+   escreva("Custo médio por item: R$", precoMedio:2:2)
+fimalgoritmo
+Pratica 6
+
+algoritmo "CodigoOrganizado"
+var
+   // Nomes de variáveis
+   nomeUsuario: caractere
+   valorVenda, taxaServico, valorTotal: real
+inicio
+   // Entradas organizadas
+   escreva("Informe o nome do cliente: ")
+   leia(nomeUsuario)
+   escreva("Valor da venda: R$ ")
+   leia(valorVenda)
+   escreva("Taxa de serviço (%): ")
+   leia(taxaServico)
+   
+   // Processamento separado
+   valorTotal <- valorVenda + (valorVenda * (taxaServico / 100))
+   
+   // Saída melhorada
+   escreval("---------------------------")
+   escreval("Cliente: ", nomeUsuario)
+   escreval("Total com taxas: R$", valorTotal:2:2)
+   escreva("---------------------------")
+fimalgoritmo
